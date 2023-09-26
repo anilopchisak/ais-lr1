@@ -1,0 +1,34 @@
+{% extends 'core/layout.html' %}
+{% load static %}
+{% block content %}
+    <div class="container mt-5">
+        <div class="main-container">
+            <center>
+                <h1 class="heads">PROJECTS</h1>
+                <br>
+            </center>
+        </div>
+        <div class="main-container">
+            <center>
+            <h1>Lotus Meditation</h1><br>
+            </center>
+            <h2>Using our website, users will be able to read an article about breathing practices, listen to meditative music before bed, on the road and while
+                doing household chores. Each of the components of the application we are developing is a great way to get rid of stress before interviews, exams
+                and other factors that disturb your peace of mind, fill up with energy, calm down and continue your day with only positive emotions and pleasant
+                sensations.</h2>
+            <br>
+            <center>
+                <img class="image" src="{% static 'core/img/lotus1.jpg' %}" alt="lotus1">
+                <br>
+                <img class="image" src="{% static 'core/img/lotus2.jpg' %}" alt="lotus2">
+                <br>
+                <img class="image" src="{% static 'core/img/lotus3.jpg' %}" alt="lotus3">
+                <br>
+                <img class="image" src="{% static 'core/img/lotus4.jpg' %}" alt="lotus4">
+                <br>
+            </center>
+
+        </div>
+
+    </div>
+{% endblock %}

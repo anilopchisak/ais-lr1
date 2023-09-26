@@ -1,0 +1,46 @@
+{% extends 'core/layout.html' %}
+{% load static %}
+{% block content %}
+    <div class="container mt-5">
+        <div class="main-container">
+            <center>
+                <h1 class="heads">WELCOME TO THE ZOO</h1>
+                <br>
+            </center>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="image">
+                        <img src="{% static 'core/img/аделия_png.png' %}" alt="adelia">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="image">
+                        <img src="{% static 'core/img/логинова_png.png' %}" alt="loginova">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="image">
+                        <img src="{% static 'core/img/касич_png.png' %}" alt="kasich">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="image">
+                        <img src="{% static 'core/img/камилла_png.png' %}" alt="kamilla">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-container">
+            <h2>FIRST STEP</h2>
+            <br>
+            <h3>Made a site and virtual machine.</h3>
+        </div>
+        <br><br>
+        <div class="main-container">
+            <h2>SECOND STEP</h2>
+            <br>
+            <h3>Soon...</h3>
+        </div>
+
+    </div>
+{% endblock %}

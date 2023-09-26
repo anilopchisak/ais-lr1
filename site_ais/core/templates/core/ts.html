@@ -1,0 +1,58 @@
+{% extends 'core/layout.html' %}
+{% load static %}
+{% block content %}
+    <div class="container mt-5">
+        <div class="main-container">
+            <center>
+                <h1 class="heads">TECHNICAL SPECIFICATIONS</h1>
+                <h1 class="heads">Digital twin of the cafe</h1>
+                <br>
+            </center>
+        </div>
+        <div class="main-container">
+            <h2>Purpose of the document</h2>
+            <br>
+            <h3>This document provides a complete set of System requirements required for implementation.</h3>
+            <h3>The signature of the Customer and the Contractor on this document confirms their agreement with the following facts and conditions:</h3>
+            <ul>
+                <li><h3>During implementation, it is necessary to perform the work in the amount specified in this Terms of Reference.</h3></li>
+                <li><h3>All ambiguities identified in this Terms of Reference after its signing are subject to bilateral agreement between the Parties.</h3></li>
+            </ul>
+            <br><br>
+
+            <h2>Objectives of the System creation</h2>
+            <br>
+            <h3>From the point of view of the creators of the System:</h3>
+            <ul>
+                <li><h3>Increasing the profitability of the Watering hole cafe</h3></li>
+                <li><h3>Selection of a more suitable cafe OS based on the results of the system operation</h3></li>
+            </ul>
+            <h3>From the client's point of view:</h3>
+            <ul>
+                <li><h3>Simplify and make ordering coffee and donuts more convenient and faster</h3></li>
+                <li><h3>To make the selection of coffee and donuts more accessible based on the client's preferences</h3></li>
+            </ul>
+            <br><br>
+
+            <h2>The main functionality of the System</h2>
+            <h3>Frontend (for clients):</h3>
+            <ul>
+                <li><h3>Customer's choice of the amount of coffee</h3></li>
+                <li><h3>Customer's choice of the number of donuts</h3></li>
+                <li><h3>Receiving an order readiness notification</h3></li>
+                <li><h3>Receiving a notification about the absence of the product</h3></li>
+                <li><h3>Refusal or consent to waiting for an order</h3></li>
+            </ul>
+
+            <h3>Backend</h3>
+            <ul>
+                <li><h3>The ability to send requests for replenishment of goods</h3></li>
+                <li><h3>Update/change stored product data</h3></li>
+                <li><h3>Receive reports on the operation of the system</h3></li>
+            </ul>
+            <br><br><br>
+
+        </div>
+
+    </div>
+{% endblock %}

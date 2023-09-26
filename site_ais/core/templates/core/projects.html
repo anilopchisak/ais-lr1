@@ -1,0 +1,40 @@
+{% extends 'core/layout.html' %}
+{% load static %}
+{% block content %}
+    <div class="container mt-5">
+        <div class="main-container">
+            <center>
+                <h1 class="heads">PROJECTS</h1>
+                <br>
+            </center>
+        </div>
+        <div class="main-container">
+            <div class="row">
+
+                <div class="col-md-3">
+                  <div class="animal">
+                      <div class="image">
+                          <a href='lotus_meditation_project'><img src="{% static 'core/img/logo_endend.png' %}" alt="lotus1"></a>
+                      </div>
+                      <div class="info">
+                          <a href='../lotus_meditation_project'>Lotus meditation</a>
+                      </div>
+                  </div>
+                </div>
+
+                <div class="col-md-3">
+                  <div class="animal">
+                      <div class="image">
+                         <a><img src="{% static 'core/img/question.jpg' %}" alt="lotus1"></a>
+                      </div>
+                      <div class="info">
+                          <a>Coming soon...</a>
+                      </div>
+                  </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+{% endblock %}

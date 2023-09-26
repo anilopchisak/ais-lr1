@@ -1,0 +1,32 @@
+{% extends 'core/layout.html' %}
+{% load static %}
+{% block content %}
+    <div class="container mt-5">
+        <div class="main-container">
+            <center>
+                <h1 class="heads">MEET THE ANIMALS</h1>
+                <br>
+            </center>
+        </div>
+        <div class="main-container">
+            <div class="row">
+                {% for animal in animals %}
+                  <div class="col-md-3">
+                      <div class="animal">
+                          <div class="image">
+                              <a><img src="{{animal.pic.url}}" alt="pic"></a>
+                          </div>
+                          <div class="info">
+                              <h2>{{animal.fname}} {{animal.sname}}</h2>
+                              <h3>{{animal.role}}</h3>
+                              <h3>{{animal.phone}}</h3>
+                          </div>
+                      </div>
+                  </div>
+                {% endfor %}
+            </div>
+
+        </div>
+
+    </div>
+{% endblock %}
